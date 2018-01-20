@@ -1,3 +1,5 @@
+/*// another CSS file created by Lee Barber*/
+
 #wrapper {
 	width:  500px;
 	height: 175px;
@@ -13,22 +15,21 @@
 
 #showingHours {
 	float: left;
-	color: red;
 	height: 200px;
 	width: auto;
 	font-size: 100px;
-	margin-left: 7%;
+	margin-left: 13%;
 	margin-top: 5%;
 /*	border-left: 4px solid black;
 	border-right: 2px solid black;
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;*/
+	/*experimenting with borders*/
 
 }
 
 #showingMinutes {
 	float: left;
-	color: red;
 	height: 200px;
 	width: auto;
 	font-size: 100px;
@@ -39,11 +40,11 @@
 	border-right: 2px solid black;
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;*/
+	/*experimenting with borders*/
 }
 
 #showingSeconds {
 	float: left;
-	color: red;
 	height: 200px;
 	width: auto;
 	font-size: 100px;
@@ -54,4 +55,7 @@
 	border-right: 4px solid black;
 	border-top: 4px solid black;
 	border-bottom: 4px solid black;*/
+	/*experimenting with borders*/
 }
+
+/*// another CSS file created by Lee Barber*/
