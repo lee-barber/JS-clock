@@ -63,7 +63,7 @@ Incomplete = Does not meet all grading criteria points above. Needs improvement 
 III. Development Considerations
 ------------------------------------------
 
-When drafting my project I knew that I wanted a digital clock to be printed to the center of the screen with a surrounding the numbers.  Instead of having the background color change using Hex codes (option 1), I decided to do option 2 with a varied background based on the time of day.  It seemed appropriate to use a theme-based image for the background, such as an image with sunlight for the morning hours, and a darker image for the evening hours.  Once I knew what I wanted to develop, it was time to get to work.
+When drafting my project I knew that I wanted a digital clock to be printed to the center of the screen with a box surrounding the numbers.  Instead of having the background color change using Hex codes (option 1), I decided to do option 2 with a varied background based on the time of day.  It seemed appropriate to use a theme-based image for the background, such as an image with sunlight for the morning hours, and a darker image for the evening hours.  Once I knew what I wanted to develop, it was time to get to work.
 
 
 IV. Coding Challenges
@@ -71,7 +71,7 @@ IV. Coding Challenges
 
 My greatest struggles with this project were with the JavaScript.  I was able to navigate the HTML and CSS with ease but staring at the blinking cursor in my JS file was daunting.  I broke through the word problem and figured out what I would need first--the current date and time.  Once I declared that variable using the object 'new Date', I made 3 other variables to get the current hours, minutes, and seconds.  From there I went right into my DOM manipulation but later learned that the if statements must come before that code in order to be executed.  I separated the variables, if statements, and DOM into 3 different sections, despite the fact that much of the code is asynchronous.  For instance, the DOM on line 106 would normally be written on line 16 as it pertains to that variable (or at least, that's how I've normally seen it coded).  
 
-There is a special tweak to this project as the 'setInterval' method is called *inside* the function named 'myTimeFunction.'  As such, when the JS code is executed, the 'myTimeFunction' function executes *once* but then is reactivated with recursive action within itself and the 'myTimeFunction' never executes by itself again until the page is closed.  This may not be the most efficient way of running the JS but it's interesting to see in action.
+There is a special tweak to this project as the 'setInterval' method is called *inside* the function named 'myTimeFunction.'  As such, when the JS code is executed, the 'myTimeFunction' function executes *once* but then is reactivated with recursive action within itself and the 'myTimeFunction' function never executes by itself again until the page is closed.  This may not be the most efficient way of running the JS but it's interesting to see in action.
 
 
 V. Final Thoughts
