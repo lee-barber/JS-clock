@@ -79,7 +79,4 @@ V. Final Thoughts
 
 I'm pleased with the outcome of this project and proud of myself for tackling it.  I wasn't sure if I was capable of making this happen but after studying the code theory and commenting how each line was being executed, I was able to put all of the pieces together and build a functional web application.
 
-
-Made with <3 in Philadelphia
-
 Copyright © by Lee Barber 2018 
