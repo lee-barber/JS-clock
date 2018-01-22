@@ -1,4 +1,4 @@
-// another JavaScript file created by Lee Barber
+// another JavaScript file created by Lee Barber © 2018
 
 // ---this is my function declared and named with no arguments---
 
@@ -126,4 +126,4 @@ myTimeFunction();
 // console.log('This is linked')
 // this is just a test to see if the JS file is "talking" to the HTML file
 
-// another JavaScript file created by Lee Barber
+// another JavaScript file created by Lee Barber © 2018
